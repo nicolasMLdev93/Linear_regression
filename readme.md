@@ -12,21 +12,27 @@ Para el desarrollo de este proyecto de Regresión Lineal, profundicé mis conoci
 📂 Estructura del proyecto:
 
 venv/
+
 data/
     dataframe.csv
     clean_dataframe.csv
     dataframe_demandas.csv
     processed.py
+    
 models/
     metrics.py
+    
 reports/
     graphics.py
+    
 src/
     pycache/
     __init_.py
     evaluate.py
     model.py
+    
 readme.md
+
 requirements.txt
 
 ⚡ Instalación y ejecución:
