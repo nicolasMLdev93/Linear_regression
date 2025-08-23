@@ -32,7 +32,7 @@ requirements.txt
 ⚡ Instalación y ejecución:
 
 1- Clonación del repositorio en Github: 
- -- acá va la url del repo
+ git clone https://github.com/nicolasMLdev93/Linear_regression_Python.git 
 
 2- Creación de entorno virtual =>  python -m venv .venv
 3- Activación del entorno virtual => .venv\Scripts\activate 
@@ -43,7 +43,6 @@ requirements.txt
 📊 Informes y gráficos:
 
 La carpeta reports/ contiene todo lo relacionado con informes y visualizaciones.
-
 
 Al ejecutar el archivo graphics.py dentro de reports/, se generan y muestran los gráficos del modelo, como la relación entre variables y la predicción de demanda. También se genera una imágen del gráfico y se guarda en la misma carpeta.
 
