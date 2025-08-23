@@ -1,4 +1,4 @@
-Lineal_Regression - Predicción de Demanda de Energía
+📈 Predicción de Demanda de Energía con Regresión Lineal Múltiple
 
 🤖 Sobre el proyecto:
 
@@ -35,9 +35,13 @@ requirements.txt
  git clone https://github.com/nicolasMLdev93/Linear_regression_Python.git 
 
 2- Creación de entorno virtual =>  python -m venv .venv
+
 3- Activación del entorno virtual => .venv\Scripts\activate 
+
 4- Instlación de dependencias => pip install -r requirements.txt 
+
 5- Ejecutar scripts => python src/model.py
+
 6- Predicción de resultados => python src/evaluate.py
 
 📊 Informes y gráficos:
