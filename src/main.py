@@ -41,7 +41,8 @@ def load_features():
 
 features = load_features()
 
-# Predice los datos:
+# Predice los datos (creamos un dataframa con pandas donde c/u de las columnas coincida con
+# las columas que se usaron para entrenar el modelo)
 columns = ["Temperatura_C", "Dia_Semana", "Hora", "Humedad_%"]
 input_df = pd.DataFrame([features], columns=columns) 
 resultado = energy_instance.predict_data(input_df)[0]
