@@ -1,21 +1,22 @@
-from sklearn import linear_model
 import pandas as pd
 import matplotlib.pyplot as plt
-
-# Crear el modelo
-reg = linear_model.LinearRegression()
+from classes.data_processor import Energy_demand
 
 # Cargar dataset
 dataset = pd.read_csv('../data/clean_dataframe.csv') 
 X = dataset.iloc[:,0:4]
 Y = dataset.iloc[:,-1]
 
-# Entrenar el modelo
-reg.fit(X, Y)
+# Creo una instancia de la clase:
+energy_instance = Energy_demand()
+
+# Entrenar modelo
+energy_instance.train_model(X, Y)
 
 # Predicciones
-Y_pred = reg.predict(X)
+Y_pred = energy_instance.predict_data(X)
 
+# Gráfico del modelo
 plt.figure(figsize=(10,6))
 plt.scatter(Y, Y_pred, color='tab:blue', edgecolor='k', alpha=0.7, label='Valores reales')
 plt.plot([Y.min(), Y.max()], [Y.min(), Y.max()], 'r--', lw=2, label='Predicciones del modelo')

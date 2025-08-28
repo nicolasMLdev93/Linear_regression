@@ -13,6 +13,10 @@ Para el desarrollo de este proyecto de Regresión Lineal, profundicé mis conoci
 
 venv/
 
+classes/
+    __init_.py
+    data_processor.py
+
 data/
     dataframe.csv
     clean_dataframe.csv
