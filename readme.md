@@ -32,8 +32,7 @@ reports/
 src/
     pycache/
     __init_.py
-    evaluate.py
-    model.py
+    main.py
     
 readme.md
 
@@ -50,9 +49,7 @@ requirements.txt
 
 4- Instlación de dependencias => pip install -r requirements.txt 
 
-5- Ejecutar scripts => python src/model.py
-
-6- Predicción de resultados => python src/evaluate.py
+5- Predicción de resultados => python src/main.py
 
 📊 Informes y gráficos:
 
